@@ -1,2 +1,3 @@
 # Chetali-Notes
-The repository will contain my notes and codes.
+
+The repository 'Notes' contains my notes and codes of some languages.

@@ -9,38 +9,16 @@ Created on Fri Mar 11 15:01:21 2022
 
 """
 A.
-
   *
  * *
 * * *
-
 """
+print("\n Equilateral Triangle \n")
 
 i = 1
-n = 3
+n = 20
 
 while i<=n:
     space = n-i
     print(" "*space,"* "*i)
     i = i + 1
-
-"""
-B. 
-
-* * * 
-*   *
-* * *
-
-"""
-print("\n")
-
-i = 1
-n = 3
-
-while i<=n :
-    if(i==2):
-        print(" *     *")
-    else:
-        print (" * "*n)
-    i = i + 1
-

@@ -13,15 +13,16 @@ A.
  * *
 * * *
 """
+
 print("\n Equilateral Triangle \n")
-
 i = 1
-n = 20
-
+n = 10
 while i<=n:
     space = n-i
     print(" "*space,"* "*i)
     i = i + 1
+
+
 
 """
 B. 
@@ -29,11 +30,10 @@ B.
 *   *
 * * *
 """
-print("\n Rectangle \n")
 
+print("\n Rectangle \n")
 i = 1
 n = 10
-
 while i<=n :
     if(i==1):
         print(" *"*n)
@@ -43,3 +43,21 @@ while i<=n :
         print(" *"," "*(2*(n-3))," *")
     i = i + 1
     
+
+
+"""
+C.
+    *
+  * * *
+* * * * *
+"""
+
+print("\n Triangle \n")
+i = 1
+n = 8
+m = 2*n 
+while i<=m:
+    space = m-i
+    print(" "*space,"* "*i)
+    i = i + 2
+

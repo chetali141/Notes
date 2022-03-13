@@ -1,6 +1,6 @@
 # Python - Notes
 
-The repository contains my Python notes.
+The repository contains my Python notes and programming codes.
 
 |File Name | Descripton |
 |---|---|

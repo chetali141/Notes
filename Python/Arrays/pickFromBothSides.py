@@ -1,6 +1,6 @@
 #  Given array - pick 'k' elements from left or right or both the sides of the array to get the maximum sum.
 
-import helper
+import Python.utils.helper as helper
 
 def maxSum(arr, k):
     mSum = arr[0]
@@ -19,4 +19,4 @@ def maxSum(arr, k):
 
     return mSum
 
-print(maxSum([5,-2,3,1,2],2))
+# print(maxSum([5,-2,3,1,2],2))

@@ -22,3 +22,16 @@ The repository contains my Python notes and programming codes.
 | [Sum of all elements between range](/Python/Arrays/sumBtwLandR.py) | Calculate sum of all the elements of the array present between the given left and right index. |
 | []() | . |
 
+
+
+## Arrays
+
+|File Name | Descripton |
+|---|---|
+| [Reverse Array](/Python/Arrays/reverseArray.py) | Reverse the given array without using extra space. |
+| [Rotate Array](/Python/Arrays/rotateArray.py) | Rotate a given array from left to right 'k' times. |
+| [Sum of all elements between range](/Python/Arrays/sumBtwLandR.py) | Calculate sum of all the elements of the array present between the given left and right index. |
+| [Equilibrium Index](/Python/Arrays/equilibriumIndex.py) | . |
+| [Pick from both sides](/Python/Arrays/pickFromBothSides.py) | . |
+| []() | . |
+

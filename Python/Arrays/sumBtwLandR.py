@@ -3,7 +3,7 @@ Given an array and 'Q' queries with each query having 'L' and 'R' indexes.
 Find sum for all elements between L and R for all Q
 """
 
-import Python.utils.helper as helper
+import helper
 
 def sumBtwLandR(arr, l, r):
     pfSum = helper.prefixSum(arr)

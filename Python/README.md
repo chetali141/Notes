@@ -21,7 +21,7 @@ The repository contains my Python notes and programming codes.
 | [Sum of all elements between range](/Python/Arrays/sumBtwLandR.py) | Calculate sum of all the elements of the array present between the given left and right index. |
 | [Equilibrium Index](/Python/Arrays/equilibriumIndex.py) | Find the equilibrium index 'i' such that the sum of all elements on it's left is equal to the sum of all the elements on it's right. |
 | [Pick from both sides](/Python/Arrays/pickFromBothSides.py) | Pick 'k' elements from left or right or both the sides of the array to find the maximum sum. |
-| []() | . |
+| [Sum of all odd or even elements between range](/Python/Arrays/sumRangeOddEven.py) | Calculate sum of all elements present on odd or even index between the given range from left to right. |
 
 ## Strings
 

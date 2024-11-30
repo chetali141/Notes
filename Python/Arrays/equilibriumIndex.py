@@ -1,6 +1,6 @@
 # 'i' is equilibrium index if sum of all elements on it's left is equal to the sum of all the elements on it's right
 
-import Python.utils.helper as helper
+import helper
 
 def equilibriumIndex(arr):
     idxCount = 0

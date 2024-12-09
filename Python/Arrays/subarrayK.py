@@ -5,5 +5,5 @@ def subarrayK(nums, k):
     for i in range(0, n - k + 1):
         print(nums[i:(k+i)])
 
-subarrayK([5,16,21,33,69,81,23,31,54], 4)
+# subarrayK([5,16,21,33,69,81,23,31,54], 4)
 

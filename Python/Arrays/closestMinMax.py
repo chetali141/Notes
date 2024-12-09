@@ -17,6 +17,6 @@ def closestMinMax(nums):
 
     return length
 
-print(closestMinMax([1,2,3,1,3,4,6,4,6,3]))
-print(closestMinMax([1,3,8,9,12,5,6,4,30]))
-print(closestMinMax([36,99,63,54,77,89,49]))
+# print(closestMinMax([1,2,3,1,3,4,6,4,6,3]))
+# print(closestMinMax([1,3,8,9,12,5,6,4,30]))
+# print(closestMinMax([36,99,63,54,77,89,49]))

@@ -1,6 +1,6 @@
 # Python - Notes
 
-The repository contains my Python notes and programming codes.
+The repository contains my Python programming codes.
 
 ## Basic Questions 
 
@@ -22,14 +22,30 @@ The repository contains my Python notes and programming codes.
 | [Equilibrium Index](/Python/Arrays/equilibriumIndex.py) | Find the equilibrium index 'i' such that the sum of all elements on it's left is equal to the sum of all the elements on it's right. |
 | [Pick from both sides](/Python/Arrays/pickFromBothSides.py) | Pick 'k' elements from left or right or both the sides of the array to find the maximum sum. |
 | [Sum of all odd or even elements between range](/Python/Arrays/sumRangeOddEven.py) | Calculate sum of all elements present on odd or even index between the given range from left to right. |
-| [Leader Element]() | Find the leader element in the given array. A element is leader if it is strictly greater than all the elements to its right. |
-| [Closest Min Max]() | . |
-| [Subarray]() | Print all the subarrays. |
-| [Maximum subarray sum]() | . |
+| [Leader Element](/Python/Arrays/leaders.py) | Find the leader element in the given array. A element is leader if it is strictly greater than all the elements to its right. |
+| [Closest Min Max](/Python/Arrays/closestMinMax.py) | . |
+| [Subarray](/Python/Arrays/subarray.py) | Print all the subarrays. |
+| [Subarray of length k](/Python/Arrays/subarrayK.py) | . |
+| [Maximum subarray sum](/Python/Arrays/maxSubarraySum.py) | . |
+| [Maximum subarray sum of length k](/Python/Arrays/maxSubarraySumK.py) | . |
+| [Sum of all subarray sum](/Python/Arrays/allSubarraySum.py) | . |
+| [All diagonals of a square matrix](/Python/Arrays/diagonalSquare.py) | . |
 
 ## Strings
 
 |File Name | Description |
 |---|---|
-|[Count Pairs](/Python/Strings/countPairs.py) | . |
+| [Count Pairs](/Python/Strings/countPairs.py) | . |
+| [Sort Lowercase](/Python/Strings/sortLowercase.py) | . |
+| [Reverse Substring](/Python/Strings/reverseSubstring.py) | . |
+| [Valid Palindrome](/Python/Strings/validPalindrome.py) | . |
+| [Valid Palidrome Substring](/Python/Strings/validPalindromeSubstring.py) | . |
 
+## Hashing
+
+|File Name | Description |
+|---|---|
+| []() | . |
+| []() | . |
+| []() | . |
+| []() | . |

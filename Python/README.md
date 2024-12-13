@@ -2,7 +2,7 @@
 
 The repository contains my Python programming codes.
 
-## Basic Questions 
+## Basic Questions
 
 |File Name | Descripton |
 |---|---|

@@ -7,7 +7,6 @@ The repository 'Notes' contains my notes and codes of some languages.
 | [Python](/Python/README.md) |
 | [Java](/Java/README.md) |
 
-
 ## Concepts to remember
 
 ### Prefix and Suffix Sum

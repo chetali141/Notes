@@ -45,7 +45,7 @@ The repository contains my Python programming codes.
 
 |File Name | Description |
 |---|---|
-| []() | . |
-| []() | . |
-| []() | . |
+| [Distinct Elements](/Python/Hashing/distinctElements.py) | . |
+| [Non repeating elements](/Python//Hashing/nonRepeatingElement.py) | . |
+| [Subarray sum zero](/Python/Hashing/subarraySumZero.py) | . |
 | []() | . |

@@ -13,7 +13,7 @@ The repository 'Notes' contains my notes and codes of some languages.
 
 Prefix and suffix sums are techniques used in computer programming to calculate cumulative sums in an array.  
 Prefix sum: Calculates cumulative sums from left to right in an array. The sum of elements from index 0 to i is called the prefix sum.  
-Suffix sum: Calculates cumulative sums from right to left in an array. 
+Suffix sum: Calculates cumulative sums from right to left in an array.
 
 ### Carry Forward
 

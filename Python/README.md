@@ -45,7 +45,15 @@ The repository contains my Python programming codes.
 
 |File Name | Description |
 |---|---|
-| [Distinct Elements](/Python/Hashing/distinctElements.py) | . |
-| [Non repeating elements](/Python//Hashing/nonRepeatingElement.py) | . |
-| [Subarray sum zero](/Python/Hashing/subarraySumZero.py) | . |
-| []() | . |
+| [Distinct Elements](/Python/Hashing/distinctElements.py) | Count distinct elements in an array. |
+| [Non repeating elements](/Python//Hashing/nonRepeatingElement.py) | Return first non repeating element in an array. |
+| [Subarray sum zero](/Python/Hashing/subarraySumZero.py) | Check if a subarray exists such that sum of the elements of that subarray = 0. |
+| [Pair sum target](/Python/Hashing/pairSumTarget.py) | Return true if you find pair of elements from an array such that their sum is equal to target given. |
+| [Distinct element Window](/Python/Hashing/distinctElementWindow.py) | . |
+| [Largest consecutive sequence](/Python/Hashing/largestConsecutiveSequence.py) | . |
+| [Top k frequent](/Python/Hashing/topKFrequent.py) | . |
+
+## Linked List
+
+|File Name | Descripton |
+|---|---|

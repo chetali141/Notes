@@ -6,9 +6,10 @@ Things implemented so far:
 3. Insert element at the Kth position
 4. Size of the linked list (2 approaches)
 5. Find an element in the linked list
+6. Delete element from Kth position
 """
 
-import intro
+import node
 
 class LinkedList():
 
@@ -53,6 +54,25 @@ class LinkedList():
         var = temp.next
         temp.next = node
         node.next = var
+    
+    # deleting a node at K th position
+    def delFromKPosn(self, k):
+        temp = self.head
+        if k == 1:
+            if recSize(temp) == 1:
+                self.head = None
+            else:
+                self.head = self.head.next
+            return "Deleting node in starting."
+        if recSize(temp) < k:
+            for i in range(recSize(temp)-2):
+                temp = temp.next
+            temp.next = None
+            return "Length of linked list is small than provided position. Deleting node in end."
+        for i in range (k-2):
+            temp = temp.next
+        var = temp.next
+        temp.next = var.next
 
 # finding a data value in the linked list
 def find(head, val):
@@ -78,30 +98,39 @@ def recSize(head):
         return 0
     return recSize(head.next) + 1
 
-head = intro.Node(1)
+# head = node.Node(1)
 
-sec_node = intro.Node(2)
-head.next = sec_node
+# sec_node = node.Node(2)
+# head.next = sec_node
 
-third_node = intro.Node(3)
-sec_node.next = third_node
+# third_node = node.Node(3)
+# sec_node.next = third_node
 
-llHead = LinkedList(head)
-print(llHead)
+# llHead = LinkedList(head)
+# print(llHead)
 
-print(size(head))
-print(recSize(head))
+# print(size(head))
+# print(recSize(head))
 
-llHead.addFront(intro.Node(4))
-print(llHead)
+# llHead.addFront(node.Node(4))
+# print(llHead)
 
-llHead.addEnd(intro.Node(5))
-print(llHead)
+# llHead.addEnd(node.Node(5))
+# print(llHead)
 
-llHead.insertatKPosn(intro.Node(6), 3)
-print(llHead)
+# llHead.insertatKPosn(node.Node(6), 3)
+# print(llHead)
 
-llHead.insertatKPosn(intro.Node(7), 1)
-llHead.insertatKPosn(intro.Node(8), 10)
+# llHead.insertatKPosn(node.Node(7), 1)
+# llHead.insertatKPosn(node.Node(8), 10)
 
-print(llHead)
+# print(llHead)
+
+# llHead.delFromKPosn(3)
+# print(llHead)
+
+# llHead.delFromKPosn(1)
+# print(llHead)
+
+# llHead.delFromKPosn(11)
+# print(llHead)

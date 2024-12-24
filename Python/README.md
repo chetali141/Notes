@@ -60,5 +60,11 @@ Items can't be accessed using index.
 
 |File Name | Descripton |
 |---|---|
-| [Introduction](/Python/LinkedLists/intro.py) | Basic introduction to node in linked list. |
+| [Introduction to Node](/Python/LinkedLists/node.py) | Basic introduction to node in linked list. |
 | [Linked List](/Python/LinkedLists/LinkedList.py) | Basic implementation of a linked list. |
+| [Y Linked List](/Python/LinkedLists/yLinkedList.py) | . |
+
+## Stacks
+
+|File Name | Descripton |
+|---|---|

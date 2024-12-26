@@ -66,5 +66,18 @@ Items can't be accessed using index.
 
 ## Stacks
 
+LIFO - Last In, First Out
+Wide application: Undo/Redo, Recursion, Paranthesis Balancing, Forward/Back buttons on browser etc.
+In python -> use lists for implementing stacks.
+
+|File Name | Descripton |
+|---|---|
+| [Paranthesis Balancing](/Python/Stacks/paranthesisBalancing.py) | . |
+| [Reverse paranthesis](/Python/Stacks/reverseParanthesis.py) | . |
+| [Minimum Stack](/Python/Stacks/minstack.py) | . |
+| [Next Greater Element](/Python/Stacks/nextGreaterElement.py) | . |
+
+## Queues
+
 |File Name | Descripton |
 |---|---|

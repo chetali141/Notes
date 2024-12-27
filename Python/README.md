@@ -63,6 +63,9 @@ Items can't be accessed using index.
 | [Introduction to Node](/Python/LinkedLists/node.py) | Basic introduction to node in linked list. |
 | [Linked List](/Python/LinkedLists/LinkedList.py) | Basic implementation of a linked list. |
 | [Y Linked List](/Python/LinkedLists/yLinkedList.py) | . |
+| [Reverse List](/Python/LinkedLists/reverseList.py) | . |
+| [Merge Sorted Linked Lists](/Python/LinkedLists/mergeSortedLL.py) | . |
+| [Remove Nth Element from the end](/Python/LinkedLists/removeNthFromEnd.py) | . |
 
 ## Stacks
 

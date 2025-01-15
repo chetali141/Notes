@@ -66,21 +66,68 @@ Items can't be accessed using index.
 | [Reverse List](/Python/LinkedLists/reverseList.py) | . |
 | [Merge Sorted Linked Lists](/Python/LinkedLists/mergeSortedLL.py) | . |
 | [Remove Nth Element from the end](/Python/LinkedLists/removeNthFromEnd.py) | . |
+| [Cycle Detection](/Python/LinkedLists/cycleDetection.py) | . |
+| [Add two numbers](/Python/LinkedLists/addTwoNumbers.py) | . |
 
 ## Stacks
 
-LIFO - Last In, First Out
+LIFO - Last In, First Out.
+Basic APIs:
+
+1. Push
+2. Pop
+3. Top
+4. Size
+
 Wide application: Undo/Redo, Recursion, Paranthesis Balancing, Forward/Back buttons on browser etc.
-In python -> use lists for implementing stacks.
+In python -> easiest implementation way is using lists.
+
+Implementation can be done using Linked List, however, you need to maintain two pointers i.e. head and tail. (Using doubly linked list.)
 
 |File Name | Descripton |
 |---|---|
-| [Paranthesis Balancing](/Python/Stacks/paranthesisBalancing.py) | . |
-| [Reverse paranthesis](/Python/Stacks/reverseParanthesis.py) | . |
-| [Minimum Stack](/Python/Stacks/minstack.py) | . |
+| [Paranthesis Balancing](/Python/Stacks/paranthesisBalancing.py) | Check if the paranthesis are balanced are not. |
+| [Reverse paranthesis](/Python/Stacks/reverseParanthesis.py) | Count the number of times you need to reverse paranthesis to balance. |
+| [Minimum Stack](/Python/Stacks/minstack.py) | Find minimum element in stack. |
 | [Next Greater Element](/Python/Stacks/nextGreaterElement.py) | . |
 
 ## Queues
 
+FIFO - First In, First Out.
+Basic APIs:
+
+1. Enqueue/Push
+2. Dequeue/Pop
+3. Front/Top
+4. Size
+
+Wide application: printer queue, downloading queue, message buffers(Kafka, Rabbit MQ), scheduling algorithm, BFS etc.
+
+**Deque** is a Data Structure which is mixture of stack and queue.
+
 |File Name | Descripton |
 |---|---|
+| [Kth Smallest Number](/Python/Queues/kthSmallestNumber.py) | Return kth smallest number that only has digit 2,3. |
+
+## Trees
+
+Hierarchial data structure.
+
+**Binary tree**: Every node of tree can have at max 2 childs.
+
+Traversal Types:
+
+1. Pre order: val, left, right
+2. Post order: left, right, val
+3. In order: left, val, right
+
+**Note:** Always consider stack space for the space complexity of tree based questions.
+
+|File Name | Descripton |
+|---|---|
+| [Tree Node](/Python/Trees/treeNode.py) | Basic inroduction to tree. |
+| [Traversal in Tree](/Python/Trees/traversal.py) | . |
+| [Find Element](/Python/Trees/findElement.py) | . |
+| [Identical Trees](/Python/Trees/identical.py) | . |
+| [Symmetric Trees](/Python/Trees/symmetric.py) | . |
+| [Mirror Tree](/Python/Trees/mirrorTree.py) | . |

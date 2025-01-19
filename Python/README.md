@@ -45,6 +45,8 @@ The repository contains my Python programming codes.
 
 ## Hashing
 
+Use dictionary: key-value pair.
+
 |File Name | Description |
 |---|---|
 | [Distinct Elements](/Python/Hashing/distinctElements.py) | Count distinct elements in an array. |
@@ -106,10 +108,13 @@ Basic APIs:
 
 Wide application: printer queue, downloading queue, message buffers(Kafka, Rabbit MQ), scheduling algorithm, BFS etc.
 
+Python has it's own Queue module. (collection -> deque and queue -> Queue)
+
 **Deque** is a Data Structure which is mixture of stack and queue.
 
 |File Name | Descripton |
 |---|---|
+| [Introduction to Queue](/Python/Queues/intro_queue.py) | Introduction to queue with a sample usage of it's functions. |
 | [Kth Smallest Number](/Python/Queues/kthSmallestNumber.py) | Return kth smallest number that only has digit 2,3. |
 
 ## Trees
@@ -139,3 +144,24 @@ Traversal Types:
 
 Consists of Nodes and Edges.
 Types: Directed and Undirected, Weight.
+
+Graph Traversal Algorithms: DFS and BFS.
+
+### Depth First Search
+
+Aggressive algorithm: It will continue down a particular path until it either finds the target or reaches a dead end.
+It is a better approach when you need to find path to a given destination asap. However, it does not guarantee to provide you with the shortest path.
+Implementation uses stack and dictionary.
+Application: pathfinding, scheduling algorithms, assessing investment decision trees, etc.
+
+### Breadth First Search
+
+It's behaviour is called as flood fill because it behaves much like water spreading out over a surface (in unweighted graph).
+Always gives shortest path if no edge weights are given.
+Implementation uses queue.
+Application: GPS, flight reservation systems, peer to peer networks, social media etc.
+
+|File Name | Descripton |
+|---|---|
+| [Depth First Search](/Python/Graphs/dfs.py) | Implementation of DFS. |
+| [Breadth First Search](/Python/Graphs/bfs.py) | Implementation of BFS. |

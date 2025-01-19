@@ -92,6 +92,7 @@ Implementation can be done using Linked List, however, you need to maintain two 
 | [Reverse paranthesis](/Python/Stacks/reverseParanthesis.py) | Count the number of times you need to reverse paranthesis to balance. |
 | [Minimum Stack](/Python/Stacks/minstack.py) | Find minimum element in stack. |
 | [Next Greater Element](/Python/Stacks/nextGreaterElement.py) | . |
+| [Reverse String](/Python/Stacks/reverseString.py) | Reverse a string using stack. |
 
 ## Queues
 
@@ -133,3 +134,8 @@ Traversal Types:
 | [Identical Trees](/Python/Trees/identical.py) | . |
 | [Symmetric Trees](/Python/Trees/symmetric.py) | . |
 | [Mirror Tree](/Python/Trees/mirrorTree.py) | . |
+
+## Graphs
+
+Consists of Nodes and Edges.
+Types: Directed and Undirected, Weight.

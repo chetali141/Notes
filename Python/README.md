@@ -11,6 +11,7 @@ The repository contains my Python programming codes.
 | [Tower of Hanoi](/Python/TowerOfHanoi.py) | This file contains the solution to the Tower of Hanoi mathematical puzzle. |
 | [Palindrome Number](/Python/PalindromeNumber.py) | This file contains the solution to the palindrome problem. |
 | [Pascal's Triangle](/Python/PascalTriangle.py) |  |
+| [Binary Search](/Python/binarySearch.py) | Use binary search to find an elements. |
 
 ## Arrays
 
@@ -31,6 +32,7 @@ The repository contains my Python programming codes.
 | [Sum of all subarray sum](/Python/Arrays/allSubarraySum.py) | . |
 | [All diagonals of a square matrix](/Python/Arrays/diagonalSquare.py) | . |
 | [Product Except Self](/Python/Arrays/productExceptSelf.py) | Given an array, find product of all elements in array except self. |
+| [Peak Element](/Python/Arrays/peakElement.py) | A peak element is an element that is strictly greater than its neighbors Given an integer array, find a peak element, and return its index. |
 
 ## Strings
 
@@ -83,7 +85,7 @@ Basic APIs:
 3. Top
 4. Size
 
-Wide application: Undo/Redo, Recursion, Paranthesis Balancing, Forward/Back buttons on browser etc.
+Application: Undo/Redo, Recursion, Paranthesis Balancing, Forward/Back buttons on browser etc.
 In python -> easiest implementation way is using lists.
 
 Implementation can be done using Linked List, however, you need to maintain two pointers i.e. head and tail. (Using doubly linked list.)
@@ -106,16 +108,27 @@ Basic APIs:
 3. Front/Top
 4. Size
 
-Wide application: printer queue, downloading queue, message buffers(Kafka, Rabbit MQ), scheduling algorithm, BFS etc.
+Application: printer queue, downloading queue, message buffers(Kafka, Rabbit MQ), scheduling algorithm, BFS etc.
 
-Python has it's own Queue module. (collection -> deque and queue -> Queue)
-
+Python has it's own Queue module. (collection -> deque and queue -> Queue).
 **Deque** is a Data Structure which is mixture of stack and queue.
+
+### Priority Queue
+
+It is useful when resources needs to be allocated based on some rules or precedence. The highest priority element is removed first.
+Basic APIs:
+
+1. Get - Fetch the one with the highest priority
+2. Put - Add element in the queue
+3. is_empty
+
+Application: AI(A* search algorithm), optimzation algorithms, spam filtering, OS process scheduling etc.
 
 |File Name | Descripton |
 |---|---|
 | [Introduction to Queue](/Python/Queues/intro_queue.py) | Introduction to queue with a sample usage of it's functions. |
 | [Kth Smallest Number](/Python/Queues/kthSmallestNumber.py) | Return kth smallest number that only has digit 2,3. |
+| [Introduction to Priority Queue](/Python/Queues/priorityQueue.py) | Introduction to priority queue. |
 
 ## Trees
 
@@ -123,7 +136,7 @@ Hierarchial data structure.
 
 **Binary tree**: Every node of tree can have at max 2 childs.
 
-Traversal Types:
+**Traversal Types**: Three types of tree traversal.
 
 1. Pre order: val, left, right
 2. Post order: left, right, val
@@ -156,12 +169,26 @@ Application: pathfinding, scheduling algorithms, assessing investment decision t
 
 ### Breadth First Search
 
-It's behaviour is called as flood fill because it behaves much like water spreading out over a surface (in unweighted graph).
+It's behaviour is called as **flood fill** because it behaves much like water spreading out over a surface (in unweighted graph).
 Always gives shortest path if no edge weights are given.
 Implementation uses queue.
 Application: GPS, flight reservation systems, peer to peer networks, social media etc.
+
+### A* Search Algorithm
+
+Widely used algorithm for calculating shortest paths. The rule of thumb or heuristics is to chosse the next position based on the distance from the goal.
+**The Manhattan Distance or Taxi Cab Distance**: used to calculate the distance between 2 points on 2D grid following the grid layout. Concept behind: Taxi needs to stay on road and can't drive through buildings.
+**Eucledian Distance**: calculates distance using Pythagoras Theorm.
+Application: GPS, NLP, ML, Puzzle problems, Video games, Robotics etc.
+
+Key Values:
+
+1. G value: best distance from start to current cell
+2. H value: heuristic distance from current cell to destination
+3. F value: sum of G and H value
 
 |File Name | Descripton |
 |---|---|
 | [Depth First Search](/Python/Graphs/dfs.py) | Implementation of DFS. |
 | [Breadth First Search](/Python/Graphs/bfs.py) | Implementation of BFS. |
+| [A* Search Algorithm](/Python/Graphs/aStar.py) | Implementation of A* search algorithm. |

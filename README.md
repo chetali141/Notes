@@ -2,7 +2,7 @@
 
 The repository 'Notes' contains my notes and programming codes for DSA and ML.
 
-|Language | Description |
+| Topic | Description |
 |---|---|
 | [Python](/Python/README.md) | Python programs for DSA. |
 | [Machine Learning](/ML/README.md) | Machine Learning concepts. |

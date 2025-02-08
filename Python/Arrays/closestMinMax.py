@@ -1,5 +1,7 @@
 """
 Given an array, find the smallest continuous part of the array such that it contains the minimum and maximum values of the array.
+
+Concept used: two pointers.
 """
 
 def closestMinMax(nums):

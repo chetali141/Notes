@@ -1,4 +1,8 @@
-# Return maximum sum from sum of all subarrays present within a given array
+"""
+Return maximum sum from sum of all subarrays present within a given array
+
+concept used: carry forward
+"""
 
 def subarraySum(nums):
     n = len(nums)

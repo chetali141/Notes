@@ -1,4 +1,10 @@
-# Given an array find the sum of all subarray sum
+"""
+Given an array find the sum of all subarray sum
+
+No of subarray with idx 'i' = (i+1)*(n-i)
+
+Concept used: contribution of each element of array to answer
+"""
 
 def allSubarraySum(nums):
     sum = 0

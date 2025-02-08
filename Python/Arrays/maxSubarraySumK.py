@@ -1,4 +1,8 @@
-# Return maximum sum from sum of all subarrays of length 'k' present within a given array
+"""
+Return maximum sum from sum of all subarrays of length 'k' present within a given array
+
+Concept used: sliding window.
+"""
 
 def subarraySum(nums, k):
     sum = 0

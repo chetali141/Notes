@@ -1,13 +1,14 @@
 # Chetali-Notes
 
-The repository 'Notes' contains my notes and codes of some languages.
+The repository 'Notes' contains my notes and programming codes for DSA and ML.
 
-|Language |
-|---|
-| [Python](/Python/README.md) |
-| [Java](/Java/README.md) |
+|Language | Description |
+|---|---|
+| [Python](/Python/README.md) | Python programs for DSA. |
+| [Machine Learning](/ML/README.md) | Machine Learning concepts. |
+| [Java](/Java/README.md) | . |
 
-## Concepts to remember
+## DSA Concepts to remember
 
 ### Prefix and Suffix Sum
 

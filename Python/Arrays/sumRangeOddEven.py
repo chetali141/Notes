@@ -3,6 +3,8 @@ Given an array and 'Q' queries with each query having 'L' and 'R' indexes and 'X
 where 'X' can be Odd or Even
 Find sum for all 'X' index elements between L and R for all Q 
 i.e. sum of all odd or even index elements between L and R
+
+Concept used: prefix sum and carry forward.
 """
 
 import helper
@@ -29,8 +31,6 @@ def sumRange(nums,l,r,x):
         pf = helper.prefixSum(pf)
     else:
         return ('Wrong input')
-    
-    print(pf)
 
     if l == 0:
         sum = pf[r]

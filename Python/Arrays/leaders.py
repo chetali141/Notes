@@ -1,6 +1,8 @@
 """
 An element is called as leader if it is strictly greater than all the elements to its right.
 Given an array of length 'n', find the leader and total number of leaders in array.
+
+Concept used: suffix max.
 """
 
 def leaders(nums):

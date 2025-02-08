@@ -1,6 +1,6 @@
 # Python - Notes
 
-The repository contains my Python programming codes.
+The repository contains some of the Python - DSA programming codes.
 
 ## Basic Questions
 
@@ -18,7 +18,7 @@ The repository contains my Python programming codes.
 |File Name | Descripton |
 |---|---|
 | [Reverse Array](/Python/Arrays/reverseArray.py) | Reverse the given array without using extra space. |
-| [Rotate Array](/Python/Arrays/rotateArray.py) | Rotate a given array from left to right 'k' times. |
+| [Rotate Array](/Python/Arrays/rotateArray.py) | Rotate a given array from left to right 'k' times without using extra space. |
 | [Sum of all elements between range](/Python/Arrays/sumBtwLandR.py) | Calculate sum of all the elements of the array present between the given left and right index. |
 | [Equilibrium Index](/Python/Arrays/equilibriumIndex.py) | Find the equilibrium index 'i' such that the sum of all elements on it's left is equal to the sum of all the elements on it's right. |
 | [Pick from both sides](/Python/Arrays/pickFromBothSides.py) | Pick 'k' elements from left or right or both the sides of the array to find the maximum sum. |

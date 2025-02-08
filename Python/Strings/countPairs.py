@@ -1,6 +1,8 @@
 """
 Given string 's', count the number of pairs such that: 
 i < j, s[i] = 'a' and s[j] = 'g'
+
+Concept used: carry forward
 """
 
 def countPairs(s):

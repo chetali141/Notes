@@ -1,4 +1,8 @@
-#  Given array - pick 'k' elements from left or right or both the sides of the array to get the maximum sum.
+"""
+Given array - pick 'k' elements from left or right or both the sides of the array to get the maximum sum.
+
+Concept used: prefix and suffix sum.
+"""
 
 import helper
 

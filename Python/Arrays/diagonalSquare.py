@@ -1,4 +1,8 @@
-# Print all diagonals of a square matrix
+"""
+Print all diagonals of a square matrix
+
+no of diagonals = n + m - 1
+"""
 
 def printDiagonals(nums):
     # left to right diagonal

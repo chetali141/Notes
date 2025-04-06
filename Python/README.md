@@ -10,7 +10,7 @@ The repository contains some of the Python - DSA programming codes.
 | [Password Generator](/Python/PasswordGenerator.py) | This file contains a program which can generate password for you or secure your password. |
 | [Tower of Hanoi](/Python/TowerOfHanoi.py) | This file contains the solution to the Tower of Hanoi mathematical puzzle. |
 | [Palindrome Number](/Python/PalindromeNumber.py) | This file contains the solution to the palindrome problem. |
-| [Pascal's Triangle](/Python/PascalTriangle.py) |  |
+| [Pascal's Triangle](/Python/PascalTriangle.py) | In the Pascal's triangle, each number is the sum of the two numbers directly above it. This file contains the code to generate Pascal's triangle. |
 | [Binary Search](/Python/binarySearch.py) | Use binary search to find an elements. |
 
 ## Arrays
@@ -24,13 +24,13 @@ The repository contains some of the Python - DSA programming codes.
 | [Pick from both sides](/Python/Arrays/pickFromBothSides.py) | Pick 'k' elements from left or right or both the sides of the array to find the maximum sum. |
 | [Sum of all odd or even elements between range](/Python/Arrays/sumRangeOddEven.py) | Calculate sum of all elements present on odd or even index between the given range from left to right. |
 | [Leader Element](/Python/Arrays/leaders.py) | Find the leader element in the given array. A element is leader if it is strictly greater than all the elements to its right. |
-| [Closest Min Max](/Python/Arrays/closestMinMax.py) | . |
+| [Closest Min Max](/Python/Arrays/closestMinMax.py) | Given an array, find the smallest continuous part of the array such that it contains the minimum and maximum values of the array. |
 | [Subarray](/Python/Arrays/subarray.py) | Print all the subarrays. |
-| [Subarray of length k](/Python/Arrays/subarrayK.py) | . |
-| [Maximum subarray sum](/Python/Arrays/maxSubarraySum.py) | . |
-| [Maximum subarray sum of length k](/Python/Arrays/maxSubarraySumK.py) | . |
-| [Sum of all subarray sum](/Python/Arrays/allSubarraySum.py) | . |
-| [All diagonals of a square matrix](/Python/Arrays/diagonalSquare.py) | . |
+| [Subarray of length k](/Python/Arrays/subarrayK.py) | Generate all subarrays of length 'k' in a given array. |
+| [Maximum subarray sum](/Python/Arrays/maxSubarraySum.py) | Return the maximum sum from the sum of all subarrays present within a given array. |
+| [Maximum subarray sum of length k](/Python/Arrays/maxSubarraySumK.py) | Return maximum sum from sum of all subarrays of length 'k' present within a given array. |
+| [Sum of all subarray sum](/Python/Arrays/allSubarraySum.py) | Given an array, find the sum of all subarray sum. |
+| [All diagonals of a square matrix](/Python/Arrays/diagonalSquare.py) | Print all diagonals in a square matrix. |
 | [Product Except Self](/Python/Arrays/productExceptSelf.py) | Given an array, find product of all elements in array except self. |
 | [Peak Element](/Python/Arrays/peakElement.py) | A peak element is an element that is strictly greater than its neighbors Given an integer array, find a peak element, and return its index. |
 
@@ -38,11 +38,11 @@ The repository contains some of the Python - DSA programming codes.
 
 |File Name | Description |
 |---|---|
-| [Count Pairs](/Python/Strings/countPairs.py) | . |
-| [Sort Lowercase](/Python/Strings/sortLowercase.py) | . |
-| [Reverse Substring](/Python/Strings/reverseSubstring.py) | . |
-| [Valid Palindrome](/Python/Strings/validPalindrome.py) | . |
-| [Valid Palidrome Substring](/Python/Strings/validPalindromeSubstring.py) | . |
+| [Count Pairs](/Python/Strings/countPairs.py) | Given string 's', count the number of pairs such that: i < j, s[i] = 'a' and s[j] = 'g'. |
+| [Sort Lowercase](/Python/Strings/sortLowercase.py) | Given a string in lowercase, sort it into asc order. |
+| [Reverse Substring](/Python/Strings/reverseSubstring.py) | Reverse a given substring in a string. |
+| [Valid Palindrome](/Python/Strings/validPalindrome.py) | Given a string s, return true if it is a palindrome, otherwise return false. Consider it to be case-insensitive and ignore all non-alphanumeric characters. |
+| [Valid Palidrome Substring](/Python/Strings/validPalindromeSubstring.py) | Given a string 'str', find the length of longest palindromic substring. |
 | [Group Anagrams](/Python/Strings/groupAnagrams.py) | Group all anagrams in a sublist. |
 
 ## Hashing
@@ -55,9 +55,9 @@ Use dictionary: key-value pair.
 | [Non repeating elements](/Python//Hashing/nonRepeatingElement.py) | Return first non repeating element in an array. |
 | [Subarray sum zero](/Python/Hashing/subarraySumZero.py) | Check if a subarray exists such that sum of the elements of that subarray = 0. |
 | [Pair sum target](/Python/Hashing/pairSumTarget.py) | Return true if you find pair of elements from an array such that their sum is equal to target given. |
-| [Distinct element Window](/Python/Hashing/distinctElementWindow.py) | . |
-| [Largest consecutive sequence](/Python/Hashing/largestConsecutiveSequence.py) | . |
-| [Top k frequent](/Python/Hashing/topKFrequent.py) | . |
+| [Distinct element Window](/Python/Hashing/distinctElementWindow.py) | Given N elements in an array, calculate distinct number of elements in window of length 'k'. |
+| [Largest consecutive sequence](/Python/Hashing/largestConsecutiveSequence.py) | Given an array, find the largest sequence which can be rearranged to form a sequence of consecutive numbers. |
+| [Top k frequent](/Python/Hashing/topKFrequent.py) | Given an integer array nums and an integer k, return the k most frequent elements within the array. |
 
 ## Linked List
 
@@ -68,11 +68,11 @@ Items can't be accessed using index.
 |---|---|
 | [Introduction to Node](/Python/LinkedLists/node.py) | Basic introduction to node in linked list. |
 | [Linked List](/Python/LinkedLists/LinkedList.py) | Basic implementation of a linked list. |
-| [Y Linked List](/Python/LinkedLists/yLinkedList.py) | . |
-| [Reverse List](/Python/LinkedLists/reverseList.py) | . |
-| [Merge Sorted Linked Lists](/Python/LinkedLists/mergeSortedLL.py) | . |
-| [Remove Nth Element from the end](/Python/LinkedLists/removeNthFromEnd.py) | . |
-| [Cycle Detection](/Python/LinkedLists/cycleDetection.py) | . |
+| [Y Linked List](/Python/LinkedLists/yLinkedList.py) | Given 2 head pointers of a linked list, find if both the linkedlist intersect or not. |
+| [Reverse List](/Python/LinkedLists/reverseList.py) | Given the beginning of a singly linked list head, reverse the list, and return the new beginning of the list. |
+| [Merge Sorted Linked Lists](/Python/LinkedLists/mergeSortedLL.py) | Given the heads of two sorted linked lists, merge the two lists into one sorted list. |
+| [Remove Nth Element from the end](/Python/LinkedLists/removeNthFromEnd.py) | Given the head of a linked list, remove the nth node from the end of the list and return its head. |
+| [Cycle Detection](/Python/LinkedLists/cycleDetection.py) | Given the head of a linked list, determine if the linked list has a cycle in it. |
 | [Add two numbers](/Python/LinkedLists/addTwoNumbers.py) | . |
 
 ## Stacks

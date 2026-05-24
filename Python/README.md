@@ -4,8 +4,8 @@ The repository contains some of the Python - DSA programming codes.
 
 ## Basic Questions
 
-|File Name | Descripton |
-|---|---|
+| File Name | Descripton |
+| --- | --- |
 | [Design Patterns](/Python/DesignPatterns.py) | The file contains code for some basic design patterns asked to print using loops. |
 | [Password Generator](/Python/PasswordGenerator.py) | This file contains a program which can generate password for you or secure your password. |
 | [Tower of Hanoi](/Python/TowerOfHanoi.py) | This file contains the solution to the Tower of Hanoi mathematical puzzle. |
@@ -15,8 +15,8 @@ The repository contains some of the Python - DSA programming codes.
 
 ## Arrays
 
-|File Name | Descripton |
-|---|---|
+| File Name | Descripton |
+| --- | --- |
 | [Reverse Array](/Python/Arrays/reverseArray.py) | Reverse the given array without using extra space. |
 | [Rotate Array](/Python/Arrays/rotateArray.py) | Rotate a given array from left to right 'k' times without using extra space. |
 | [Sum of all elements between range](/Python/Arrays/sumBtwLandR.py) | Calculate sum of all the elements of the array present between the given left and right index. |
@@ -36,8 +36,8 @@ The repository contains some of the Python - DSA programming codes.
 
 ## Strings
 
-|File Name | Description |
-|---|---|
+| File Name | Description |
+| --- | --- |
 | [Count Pairs](/Python/Strings/countPairs.py) | Given string 's', count the number of pairs such that: i < j, s[i] = 'a' and s[j] = 'g'. |
 | [Sort Lowercase](/Python/Strings/sortLowercase.py) | Given a string in lowercase, sort it into asc order. |
 | [Reverse Substring](/Python/Strings/reverseSubstring.py) | Reverse a given substring in a string. |
@@ -49,8 +49,8 @@ The repository contains some of the Python - DSA programming codes.
 
 Use dictionary: key-value pair.
 
-|File Name | Description |
-|---|---|
+| File Name | Description |
+| --- | --- |
 | [Distinct Elements](/Python/Hashing/distinctElements.py) | Count distinct elements in an array. |
 | [Non repeating elements](/Python//Hashing/nonRepeatingElement.py) | Return first non repeating element in an array. |
 | [Subarray sum zero](/Python/Hashing/subarraySumZero.py) | Check if a subarray exists such that sum of the elements of that subarray = 0. |
@@ -58,14 +58,15 @@ Use dictionary: key-value pair.
 | [Distinct element Window](/Python/Hashing/distinctElementWindow.py) | Given N elements in an array, calculate distinct number of elements in window of length 'k'. |
 | [Largest consecutive sequence](/Python/Hashing/largestConsecutiveSequence.py) | Given an array, find the largest sequence which can be rearranged to form a sequence of consecutive numbers. |
 | [Top k frequent](/Python/Hashing/topKFrequent.py) | Given an integer array nums and an integer k, return the k most frequent elements within the array. |
+| [Valid Sudoku](/Python/Hashing/validSudoku.py) | Return true if the given sudoku board is valid, else return false. It is not neccessary the provided sudoku block will be full or solved. |
 
 ## Linked List
 
 Stores collection of data items. Contiguous space is not required.
 Items can't be accessed using index.
 
-|File Name | Descripton |
-|---|---|
+| File Name | Descripton |
+| --- | --- |
 | [Introduction to Node](/Python/LinkedLists/node.py) | Basic introduction to node in linked list. |
 | [Linked List](/Python/LinkedLists/LinkedList.py) | Basic implementation of a linked list. |
 | [Y Linked List](/Python/LinkedLists/yLinkedList.py) | Given 2 head pointers of a linked list, find if both the linkedlist intersect or not. |
@@ -90,8 +91,8 @@ In python -> easiest implementation way is using lists.
 
 Implementation can be done using Linked List, however, you need to maintain two pointers i.e. head and tail. (Using doubly linked list.)
 
-|File Name | Descripton |
-|---|---|
+| File Name | Descripton |
+| --- | --- |
 | [Paranthesis Balancing](/Python/Stacks/paranthesisBalancing.py) | Check if the paranthesis are balanced are not. |
 | [Reverse paranthesis](/Python/Stacks/reverseParanthesis.py) | Count the number of times you need to reverse paranthesis to balance. |
 | [Minimum Stack](/Python/Stacks/minstack.py) | Find minimum element in stack. |
@@ -124,8 +125,8 @@ Basic APIs:
 
 Application: AI(A* search algorithm), optimzation algorithms, spam filtering, OS process scheduling etc.
 
-|File Name | Descripton |
-|---|---|
+| File Name | Descripton |
+| --- | --- |
 | [Introduction to Queue](/Python/Queues/intro_queue.py) | Introduction to queue with a sample usage of it's functions. |
 | [Kth Smallest Number](/Python/Queues/kthSmallestNumber.py) | Return kth smallest number that only has digit 2,3. |
 | [Introduction to Priority Queue](/Python/Queues/priorityQueue.py) | Introduction to priority queue. |
@@ -133,6 +134,7 @@ Application: AI(A* search algorithm), optimzation algorithms, spam filtering, OS
 ## Trees
 
 Hierarchial data structure.
+No of edges = No of nodes - 1
 
 **Binary tree**: Every node of tree can have at max 2 childs.
 
@@ -144,8 +146,8 @@ Hierarchial data structure.
 
 **Note:** Always consider stack space for the space complexity of tree based questions.
 
-|File Name | Descripton |
-|---|---|
+| File Name | Descripton |
+| --- | --- |
 | [Tree Node](/Python/Trees/treeNode.py) | Basic inroduction to tree. |
 | [Traversal in Tree](/Python/Trees/traversal.py) | . |
 | [Find Element](/Python/Trees/findElement.py) | . |
@@ -156,7 +158,9 @@ Hierarchial data structure.
 ## Graphs
 
 Consists of Nodes and Edges.
-Types: Directed and Undirected, Weight.
+Types: Directed and Undirected, Weighted and Unweighted, undirected cyclic and undirected acyclic.
+
+LLM uses graphs a lot.
 
 Graph Traversal Algorithms: DFS and BFS.
 
@@ -187,8 +191,8 @@ Key Values:
 2. H value: heuristic distance from current cell to destination
 3. F value: sum of G and H value
 
-|File Name | Descripton |
-|---|---|
+| File Name | Descripton |
+| --- | --- |
 | [Depth First Search](/Python/Graphs/dfs.py) | Implementation of DFS. |
 | [Breadth First Search](/Python/Graphs/bfs.py) | Implementation of BFS. |
 | [A* Search Algorithm](/Python/Graphs/aStar.py) | Implementation of A* search algorithm. |
